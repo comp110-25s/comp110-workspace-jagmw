@@ -1,0 +1,21 @@
+# Example Code for Memory Diagram Practice
+def add(x, y):
+    result = x + y
+    return result
+
+
+def multiply(a, b):
+    product = a * b
+    return product
+
+
+# Main execution starts here
+x = 5
+y = 10
+
+sum_result = add(x, y)  # Call to 'add' function
+print(sum_result)
+
+z = 2
+final_result = multiply(sum_result, z)  # Call to 'multiply' function
+print(final_result)
